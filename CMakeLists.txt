@@ -38,9 +38,11 @@ target_compile_options(${EXECUTABLE} PRIVATE
     -mthumb
     -mfloat-abi=soft
 
+    -g3 
+
     -DSTM32F103xx
-    -DSTM32F10X_HD
-    -DSTM32F103RCT
+    -DSTM32F10X_MD
+    -DSTM32F103RBT
 
     -fdata-sections
     -ffunction-sections
